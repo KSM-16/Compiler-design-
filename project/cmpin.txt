@@ -1,0 +1,100 @@
+#include<stdlib.h>
+#include<stdio.h>
+#include<math.h>
+
+func int fc()
+send 10;
+end_func
+
+func_main()
+
+int ab1;
+read( ab1 );
+int ab2 = 10;
+int ab3 = 100 - 60 + (3 * 5) ;
+int ab4 = ab3 ;
+double d1;
+double d2 = 3.1416;
+double d3 = 5.25 * 2.0 - 3.25;
+double d4 = d3;
+char chr1 = 'a';
+char chr2=chr1;
+
+bool bl1 = true;
+bool bl2;
+bool bl3= bl1;
+/*
+multi
+line
+comment
+*/
+;
+int arr[10];
+double darr[15];
+bool barr[20];
+char carr[25];
+//decleration ended 
+read (arr[1]);
+write(arr[1]);
+
+write(| Hello Moury!  |);
+
+d1 = d3 * d2 + 5.25 ;
+ab1 =(ab3+ab4)-ab2;
+
+gcd ( 10 , 15 ) ;
+lcm ( 12 , 20 ) ;
+sqrt(25.0);
+qube(5.0);
+square(9.0);
+
+sin(30.0);
+sin_inv(1.0);
+cos(180.0);
+cos_inv(0.0);
+tan(45.0);
+tan_inv(70.0);
+
+isprime(10);
+isprime(29);
+prime(4);
+prime(10);
+
+fibo(3);
+fibo(4);
+fibo(5);
+fibo(10);
+
+power(2,5);
+bigmod(2,5,30);
+write(| Built in Function call ended! |);
+
+int xyz;
+loop xyz in 1 .. 5 by 1 : 
+	ab4 =10-5+3*6 ;
+end_loop
+loop xyz in 10 .. 0 by 2 : 
+	ab4 =10 + (5*60)/6 - 20 ;
+end_loop
+write(ab4);
+
+if 25 < 10 :
+	if 40 > 20 :
+		ab4 = 50 + 10/5;
+	end_if
+elif 15 > 12 :
+	if 100 < 1 :
+		ab4 = 80 + 50-30;
+	else:
+		ab4 = 100/2 - 40*2;
+	end_if
+else:
+	ab4 = 80 + 5 ;
+end_if
+
+int ab=0;
+while(ab<5)
+	ab=ab+1;
+end_while
+
+end_main

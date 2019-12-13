@@ -1,0 +1,1465 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 12211>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 8.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr (  1  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 36.42 Tm 0 Tr (%{) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr (  2  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 47.76 Tm 0 Tr (#include <bits/stdc++.h>) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.10 Tm 0 Tr (  3  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 59.10 Tm 0 Tr (using namespace std;    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 70.44 Tm 0 Tr (  4  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 81.77 Tm 0 Tr (  5  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 81.77 Tm 0 Tr (extern string yytext;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.11 Tm 0 Tr (  6  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 93.11 Tm 0 Tr (extern int yylex\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 104.45 Tm 0 Tr (  7  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 104.45 Tm 0 Tr (extern int yyparse\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 115.79 Tm 0 Tr (  8  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 115.79 Tm 0 Tr (extern FILE *yyin,*yyout;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.13 Tm 0 Tr (  9  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 127.13 Tm 0 Tr (void yyerror\(const char *s\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 138.47 Tm 0 Tr ( 10  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 149.81 Tm 0 Tr ( 11  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 149.81 Tm 0 Tr (#define pi acos\(-1\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.14 Tm 0 Tr ( 12  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 161.14 Tm 0 Tr (bool isprime[100005];) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 172.48 Tm 0 Tr ( 13  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 172.48 Tm 0 Tr (vector<int>pr;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 183.82 Tm 0 Tr ( 14  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 183.82 Tm 0 Tr (int currentex = 0;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.16 Tm 0 Tr ( 15  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 195.16 Tm 0 Tr (int ifelfound = 0;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 206.50 Tm 0 Tr ( 16  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 206.50 Tm 0 Tr (void siv\(\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 217.84 Tm 0 Tr ( 17  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 217.84 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.18 Tm 0 Tr ( 18  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 229.18 Tm 0 Tr (pr.push_back\(2\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 240.51 Tm 0 Tr ( 19  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 240.51 Tm 0 Tr (for\(int i=3;i*i<=100000;i+=2\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 251.85 Tm 0 Tr ( 20  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 251.85 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 251.85 Tm 0 Tr (if\(isprime[i]==0\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.19 Tm 0 Tr ( 21  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 263.19 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 263.19 Tm 0 Tr (for\(int j=i*i;j<=100000;j+=2*i\) isprime[j]=1;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 274.53 Tm 0 Tr ( 22  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 274.53 Tm 0 Tr (for\(int i=3;i<=100000;i+=2\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 285.87 Tm 0 Tr ( 23  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 285.87 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 285.87 Tm 0 Tr (if\(isprime[i]==0\) pr.push_back\(i\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.21 Tm 0 Tr ( 24  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 297.21 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 308.55 Tm 0 Tr ( 25  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 319.88 Tm 0 Tr ( 26  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 319.88 Tm 0 Tr (int bigmod\(int a,int b,int c\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.22 Tm 0 Tr ( 27  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 331.22 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 331.22 Tm 0 Tr (if\(b==0\) return 1;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 342.56 Tm 0 Tr ( 28  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 342.56 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 342.56 Tm 0 Tr (if\(b==1\) return a%c;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 353.90 Tm 0 Tr ( 29  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 353.90 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 353.90 Tm 0 Tr (int x=bigmod\(a,b/2,c\)%c;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.24 Tm 0 Tr ( 30  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 365.24 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 365.24 Tm 0 Tr (x=\(x*x\)%c;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 376.58 Tm 0 Tr ( 31  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 376.58 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 376.58 Tm 0 Tr (if\(b%2\) return \(a*x\)%c;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 387.92 Tm 0 Tr ( 32  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 387.92 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 387.92 Tm 0 Tr (else return x;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.25 Tm 0 Tr ( 33  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 399.25 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 410.59 Tm 0 Tr ( 34  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 410.59 Tm 0 Tr (map<string,int>varmap;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 421.93 Tm 0 Tr ( 35  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 421.93 Tm 0 Tr (map<string,int>ivar;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.27 Tm 0 Tr ( 36  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 433.27 Tm 0 Tr (map<string,vector<int> >aivar;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 444.61 Tm 0 Tr ( 37  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 444.61 Tm 0 Tr (map<string,double>dvar;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 455.95 Tm 0 Tr ( 38  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 455.95 Tm 0 Tr (map<string,vector<double> >advar;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.29 Tm 0 Tr ( 39  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 467.29 Tm 0 Tr (map<string,char>cvar;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 478.62 Tm 0 Tr ( 40  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 478.62 Tm 0 Tr (map<string,vector<char> >acvar;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 489.96 Tm 0 Tr ( 41  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 489.96 Tm 0 Tr (map<string,bool>bvar;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.30 Tm 0 Tr ( 42  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 501.30 Tm 0 Tr (map<string,vector<bool> >abvar;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 512.64 Tm 0 Tr ( 43  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 512.64 Tm 0 Tr (void create_array\(string name,int size,int type\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 523.98 Tm 0 Tr ( 44  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 523.98 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.32 Tm 0 Tr ( 45  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 535.32 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 535.32 Tm 0 Tr (if\(type == 6\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 546.66 Tm 0 Tr ( 46  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 546.66 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 546.66 Tm 0 Tr (for\(int i = 0 ; i < size ; i++\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 557.99 Tm 0 Tr ( 47  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 557.99 Tm 0 Tr (            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 109.95 557.99 Tm 0 Tr (aivar[name].push_back\(0\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.33 Tm 0 Tr ( 48  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 569.33 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 569.33 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 580.67 Tm 0 Tr ( 49  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 580.67 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 580.67 Tm 0 Tr (else if\(type == 8\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.01 Tm 0 Tr ( 50  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 592.01 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 592.01 Tm 0 Tr (for\(int i = 0 ; i < size ; i++\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.35 Tm 0 Tr ( 51  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 603.35 Tm 0 Tr (            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 109.95 603.35 Tm 0 Tr (advar[name].push_back\(0.0\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 614.69 Tm 0 Tr ( 52  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 614.69 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 614.69 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.03 Tm 0 Tr ( 53  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 626.03 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 626.03 Tm 0 Tr (else if\(type == 9\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.36 Tm 0 Tr ( 54  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 637.36 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 637.36 Tm 0 Tr (for\(int i = 0 ; i < size ; i++\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 648.70 Tm 0 Tr ( 55  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 648.70 Tm 0 Tr (            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 109.95 648.70 Tm 0 Tr (acvar[name].push_back\('#'\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.04 Tm 0 Tr ( 56  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 660.04 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 660.04 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.38 Tm 0 Tr ( 57  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 671.38 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 671.38 Tm 0 Tr (else if\(type == 10\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 682.72 Tm 0 Tr ( 58  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 682.72 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 682.72 Tm 0 Tr (for\(int i = 0 ; i < size ; i++\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.06 Tm 0 Tr ( 59  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 694.06 Tm 0 Tr (            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 109.95 694.06 Tm 0 Tr (abvar[name].push_back\(false\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.40 Tm 0 Tr ( 60  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 705.40 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 705.40 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 716.73 Tm 0 Tr ( 61  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 716.73 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.07 Tm 0 Tr ( 62  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 739.41 Tm 0 Tr ( 63  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 739.41 Tm 0 Tr (%}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 750.75 Tm 0 Tr ( 64  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.09 Tm 0 Tr ( 65  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 762.09 Tm 0 Tr (%union {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 773.43 Tm 0 Tr ( 66  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 773.43 Tm 0 Tr (  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 773.43 Tm 0 Tr (int ival;) Tj  ET Q
+Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 11331>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 8.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr ( 67  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 36.42 Tm 0 Tr (  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 36.42 Tm 0 Tr (char cval;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr ( 68  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 47.76 Tm 0 Tr (  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 47.76 Tm 0 Tr (double fval;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.10 Tm 0 Tr ( 69  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 59.10 Tm 0 Tr (  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 59.10 Tm 0 Tr (bool bval;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 70.44 Tm 0 Tr ( 70  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 70.44 Tm 0 Tr (  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 70.44 Tm 0 Tr (char *type,*name;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 81.77 Tm 0 Tr ( 71  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 81.77 Tm 0 Tr (  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 81.77 Tm 0 Tr (char *str;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.11 Tm 0 Tr ( 72  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 93.11 Tm 0 Tr (  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 93.11 Tm 0 Tr (char c;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 104.45 Tm 0 Tr ( 73  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 104.45 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 115.79 Tm 0 Tr ( 74  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.13 Tm 0 Tr ( 75  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 127.13 Tm 0 Tr (%union {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 138.47 Tm 0 Tr ( 76  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 138.47 Tm 0 Tr (  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 138.47 Tm 0 Tr (struct{) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 149.81 Tm 0 Tr ( 77  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 149.81 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 149.81 Tm 0 Tr (int ival;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.14 Tm 0 Tr ( 78  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 161.14 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 161.14 Tm 0 Tr (double fval;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 172.48 Tm 0 Tr ( 79  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 172.48 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 172.48 Tm 0 Tr (char cval;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 183.82 Tm 0 Tr ( 80  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 183.82 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 183.82 Tm 0 Tr (bool bval;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.16 Tm 0 Tr ( 81  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 195.16 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 195.16 Tm 0 Tr (char *str;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 206.50 Tm 0 Tr ( 82  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 206.50 Tm 0 Tr (  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 206.50 Tm 0 Tr (}vars;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 217.84 Tm 0 Tr ( 83  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 217.84 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.18 Tm 0 Tr ( 84  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 240.51 Tm 0 Tr ( 85  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 240.51 Tm 0 Tr (%token HASH SHOW READ MCMNT SCMNT FUNC RETURN FUNCEND QUOTE OPENBR1 CLOSEBR1 OPENBR3 CLOSEBR3 MAIN INCLUDE) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 251.85 Tm 0 Tr (GREATER LESS GREATEREQ LESSEQ MOD ASIN ACOS ATAN SIN COS TAN SQRT POW BIGM FIBO SQ PRIME ISPRM QUBE GCD LCM DOT) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.19 Tm 0 Tr (PLUS MINUS MUL DIV SEMI COMM EQUAL IF ELSE ELIF ENDIF END LOOP BY IN ENDLOOP WHILE ENDWHILE AND OR NOT COLON) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 274.53 Tm 0 Tr ( 86  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 274.53 Tm 0 Tr (%token NEWLINE) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 285.87 Tm 0 Tr ( 87  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 285.87 Tm 0 Tr (%token <str> STRING) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.21 Tm 0 Tr ( 88  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 297.21 Tm 0 Tr (%token <str> HEADFILENAME) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 308.55 Tm 0 Tr ( 89  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 308.55 Tm 0 Tr (%token <type> INT) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 319.88 Tm 0 Tr ( 90  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 319.88 Tm 0 Tr (%token <type> CHAR) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.22 Tm 0 Tr ( 91  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 331.22 Tm 0 Tr (%token <type> DOUBLE) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 342.56 Tm 0 Tr ( 92  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 342.56 Tm 0 Tr (%token <type> BOOL) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 353.90 Tm 0 Tr ( 93  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 353.90 Tm 0 Tr (%token <c> PERCENT) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.24 Tm 0 Tr ( 94  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 365.24 Tm 0 Tr (%token <name> VARNAME) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 376.58 Tm 0 Tr ( 95  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 376.58 Tm 0 Tr (%token <ival> DIGIT) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 387.92 Tm 0 Tr ( 96  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 387.92 Tm 0 Tr (%token <fval> FLOATVAL) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.25 Tm 0 Tr ( 97  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 399.25 Tm 0 Tr (%token <cval> CHARACTER) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 410.59 Tm 0 Tr ( 98  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 410.59 Tm 0 Tr (%token <bval> TRUE) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 421.93 Tm 0 Tr ( 99  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 421.93 Tm 0 Tr (%token <bval> FALSE) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.27 Tm 0 Tr (100  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 433.27 Tm 0 Tr (%token <bval> BOOLVAL) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 444.61 Tm 0 Tr (101  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 444.61 Tm 0 Tr (%type <vars> VARIABLE) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 455.95 Tm 0 Tr (102  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 455.95 Tm 0 Tr (%type <vars> VALUE) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.29 Tm 0 Tr (103  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 467.29 Tm 0 Tr (%type <type> TYPE) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 478.62 Tm 0 Tr (104  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 478.62 Tm 0 Tr (%type <vars> EX) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 489.96 Tm 0 Tr (105  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 489.96 Tm 0 Tr (%type <vars> F) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.30 Tm 0 Tr (106  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 501.30 Tm 0 Tr (%type <vars> T) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 512.64 Tm 0 Tr (107  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 512.64 Tm 0 Tr (%type <bval> condx) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 523.98 Tm 0 Tr (108  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 523.98 Tm 0 Tr (%type <bval> CONDX) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.32 Tm 0 Tr (109  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 535.32 Tm 0 Tr (%type <vars> A) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 546.66 Tm 0 Tr (110  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 546.66 Tm 0 Tr (%type <fval> B) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 557.99 Tm 0 Tr (111  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 557.99 Tm 0 Tr (%type <fval> C) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.33 Tm 0 Tr (112  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 569.33 Tm 0 Tr (%type <ival> NUMVALUE) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 580.67 Tm 0 Tr (113  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 580.67 Tm 0 Tr (%type <fval> else) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.01 Tm 0 Tr (114  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 592.01 Tm 0 Tr (%type <fval> NUMV) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.35 Tm 0 Tr (115  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 603.35 Tm 0 Tr (%type <fval> EXP) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 614.69 Tm 0 Tr (116  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 614.69 Tm 0 Tr (%type <fval> IFELSE) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.03 Tm 0 Tr (117  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 626.03 Tm 0 Tr (%start START) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.36 Tm 0 Tr (118  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 648.70 Tm 0 Tr (119  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 648.70 Tm 0 Tr (%%) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.04 Tm 0 Tr (120  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 660.04 Tm 0 Tr (START: hdrs funcs MAIN LINE END     {  cout << "//Main function executed successfully" << endl; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.38 Tm 0 Tr (121  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 671.38 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 682.72 Tm 0 Tr (122  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 682.72 Tm 0 Tr (hdrs:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.06 Tm 0 Tr (123  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 694.06 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 694.06 Tm 0 Tr (|hdrs header) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.40 Tm 0 Tr (124  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 705.40 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 716.73 Tm 0 Tr (125  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 716.73 Tm 0 Tr (header:     HASH INCLUDE LESS HEADFILENAME GREATER      { cout << "//Header file " << $4 << " included" <<) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.07 Tm 0 Tr (endl; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 739.41 Tm 0 Tr (126  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 739.41 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 750.75 Tm 0 Tr (127  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 750.75 Tm 0 Tr (LINE :) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.09 Tm 0 Tr (128  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 762.09 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 762.09 Tm 0 Tr (|LINE ST                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 773.43 Tm 0 Tr (129  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 773.43 Tm 0 Tr (;) Tj  ET Q
+Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 14918>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 8.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr (130  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr (131  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 47.76 Tm 0 Tr (ST : read                   ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.10 Tm 0 Tr (132  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 59.10 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 59.10 Tm 0 Tr (|show           {cout<<endl;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 70.44 Tm 0 Tr (133  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 70.44 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 70.44 Tm 0 Tr (|VD             { cout << endl; }           ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 81.77 Tm 0 Tr (134  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 81.77 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 81.77 Tm 0 Tr (|EXP            { cout << "Result of expression = " << $1 << endl; }                    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.11 Tm 0 Tr (135  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 93.11 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 93.11 Tm 0 Tr (|condx                  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 104.45 Tm 0 Tr (136  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 104.45 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 104.45 Tm 0 Tr (|IFELSE         { cout << "//Value of if-else block : " << $1 << endl; }                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 115.79 Tm 0 Tr (137  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 115.79 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 115.79 Tm 0 Tr (|FL                 ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.13 Tm 0 Tr (138  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 127.13 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 127.13 Tm 0 Tr (|WH) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 138.47 Tm 0 Tr (139  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 138.47 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 138.47 Tm 0 Tr (|empty  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 149.81 Tm 0 Tr (140  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 149.81 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 149.81 Tm 0 Tr (|singlecomment) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.14 Tm 0 Tr (141  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 161.14 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 161.14 Tm 0 Tr (|multicomment   ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 172.48 Tm 0 Tr (142  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 172.48 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 172.48 Tm 0 Tr (|fcall          ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 183.82 Tm 0 Tr (143  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 183.82 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.16 Tm 0 Tr (144  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 195.16 Tm 0 Tr (VD: TYPE VARNAME EQUAL VALUE SEMI       { if\( varmap.find\($2\) == varmap.end\(\) \){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 206.50 Tm 0 Tr (145  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 206.50 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 206.50 Tm 0 Tr (if\(strcmp\($1,"int"\) == 0\) {cout << "//"<<$1<<" Variable " << $2  << " is) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 217.84 Tm 0 Tr (initialized with " << $4.ival ; varmap[$2] = 1; ivar[$2] = $4.ival; } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.18 Tm 0 Tr (146  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 229.18 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 229.18 Tm 0 Tr (else if\(strcmp\($1,"double"\) == 0\) {cout << "//"<<$1<<" Variable " << $2  << " is) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 240.51 Tm 0 Tr (initialized with "<< $4.fval ; varmap[$2] = 3; dvar[$2] = $4.fval; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 251.85 Tm 0 Tr (147  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 251.85 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 251.85 Tm 0 Tr (else if\(strcmp\($1,"char"\) == 0\) {cout << "//"<<$1<<" Variable " << $2  << " is) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.19 Tm 0 Tr (initialized with "<< $4.cval ; varmap[$2] = 4; cvar[$2] = $4.cval;  }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 274.53 Tm 0 Tr (148  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 274.53 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 274.53 Tm 0 Tr (else if\(strcmp\($1,"bool"\) == 0\) {cout << "//"<<$1<<" Variable " << $2  << " is) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 285.87 Tm 0 Tr (initialized with "<< $4.bval ; varmap[$2] = 5; bvar[$2] = $4.bval; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.21 Tm 0 Tr (149  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 297.21 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 297.21 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 308.55 Tm 0 Tr (150  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 308.55 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 308.55 Tm 0 Tr (else { yyerror\("Error : Variable "\); yyerror\($2\); yyerror\(" previously declared"\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 319.88 Tm 0 Tr (exit\(-1\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.22 Tm 0 Tr (151  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 331.22 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 331.22 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 342.56 Tm 0 Tr (152  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 342.56 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 342.56 Tm 0 Tr (|TYPE VARNAME EQUAL VARIABLE SEMI   { if\( varmap.find\($2\) == varmap.end\(\) \)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 353.90 Tm 0 Tr (153  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 353.90 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 353.90 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.24 Tm 0 Tr (154  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 365.24 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 365.24 Tm 0 Tr (if\(strcmp\($1,"int"\) == 0\) {cout << "//"<<$1<<" Variable " << $2  << " is) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 376.58 Tm 0 Tr (initialized with "<< $4.ival ; varmap[$2] = 1; ivar[$2] = $4.ival;  } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 387.92 Tm 0 Tr (155  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 387.92 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 387.92 Tm 0 Tr (else if\(strcmp\($1,"double"\) == 0\) {cout << "//"<<$1<<" Variable " << $2  << " is) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.25 Tm 0 Tr (initialized with "<< $4.fval ; varmap[$2] = 3; dvar[$2] = $4.fval; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 410.59 Tm 0 Tr (156  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 410.59 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 410.59 Tm 0 Tr (else if\(strcmp\($1,"char"\) == 0\) {cout << "//"<<$1<<" Variable " << $2  << " is) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 421.93 Tm 0 Tr (initialized with "<< $4.cval ; varmap[$2] = 4; cvar[$2] = $4.cval; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.27 Tm 0 Tr (157  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 433.27 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 433.27 Tm 0 Tr (else if\(strcmp\($1,"bool"\) == 0\) {cout << "//"<<$1<<" Variable " << $2  << " is) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 444.61 Tm 0 Tr (initialized with "<< $4.bval ; varmap[$2] = 5; bvar[$2] = $4.bval; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 455.95 Tm 0 Tr (158  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 455.95 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 455.95 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.29 Tm 0 Tr (159  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 467.29 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 467.29 Tm 0 Tr (else { yyerror\("Error : Variable "\); yyerror\($2\); yyerror\(" previously declared"\); ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 478.62 Tm 0 Tr (exit\(-1\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 489.96 Tm 0 Tr (160  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 489.96 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 489.96 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.30 Tm 0 Tr (161  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 501.30 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 501.30 Tm 0 Tr (|TYPE VARNAME EQUAL EX SEMI     { if\( varmap.find\($2\) == varmap.end\(\) \){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 512.64 Tm 0 Tr (162  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 512.64 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 512.64 Tm 0 Tr (if\(strcmp\($1,"int"\) == 0\) {cout << "//"<<$1<<" Variable " << $2  << " is) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 523.98 Tm 0 Tr (initialized with "<< $4.ival ; varmap[$2] = 1; ivar[$2] = $4.ival; } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.32 Tm 0 Tr (163  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 535.32 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 535.32 Tm 0 Tr (else if\(strcmp\($1,"double"\) == 0\) {cout << "//"<<$1<<" Variable " << $2  << " is) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 546.66 Tm 0 Tr (initialized with "<< $4.fval ; varmap[$2] = 3; dvar[$2] = $4.fval; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 557.99 Tm 0 Tr (164  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 557.99 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 557.99 Tm 0 Tr (else if\(strcmp\($1,"char"\) == 0\) {cout << "//"<<$1<<" Variable " << $2  << " is) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.33 Tm 0 Tr (initialized with "<< $4.cval ; varmap[$2] = 4; cvar[$2] = $4.cval; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 580.67 Tm 0 Tr (165  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 580.67 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 580.67 Tm 0 Tr (else if\(strcmp\($1,"bool"\) == 0\) {cout << "//"<<$1<<" Variable " << $2  << " is) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.01 Tm 0 Tr (initialized with "<< $4.bval ; varmap[$2] = 5; bvar[$2] = $4.bval; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.35 Tm 0 Tr (166  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 603.35 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 603.35 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 614.69 Tm 0 Tr (167  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 614.69 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 614.69 Tm 0 Tr (else { yyerror\("Error : Variable "\); yyerror\($2\); yyerror\(" previously declared"\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.03 Tm 0 Tr (exit\(-1\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.36 Tm 0 Tr (168  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 637.36 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 637.36 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 648.70 Tm 0 Tr (169  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 648.70 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 648.70 Tm 0 Tr (|TYPE VARNAME SEMI          { if\( varmap.find\($2\) == varmap.end\(\) \){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.04 Tm 0 Tr (170  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 660.04 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 660.04 Tm 0 Tr (if\(strcmp\($1,"int"\) == 0\) {cout << "//"<<$1<<" Variable " << $2  << " is) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.38 Tm 0 Tr (initialized with "<< 0 ; varmap[$2] = 1; ivar[$2] = 0; } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 682.72 Tm 0 Tr (171  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 682.72 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 682.72 Tm 0 Tr (else if\(strcmp\($1,"double"\) == 0\) {cout << "//"<<$1<<" Variable " << $2  << " is) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.06 Tm 0 Tr (initialized with "<< 0.0 ; varmap[$2] = 3; dvar[$2] = 0.0; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.40 Tm 0 Tr (172  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 705.40 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 705.40 Tm 0 Tr (else if\(strcmp\($1,"char"\) == 0\) {cout << "//"<<$1<<" Variable " << $2  << " is) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 716.73 Tm 0 Tr (initialized with #" ; varmap[$2] = 4; cvar[$2] = '#';}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.07 Tm 0 Tr (173  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 728.07 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 728.07 Tm 0 Tr (else if\(strcmp\($1,"bool"\) == 0\) {cout << "//"<<$1<<" Variable " << $2  << " is) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 739.41 Tm 0 Tr (initialized with false" ; varmap[$2] = 5; bvar[$2] = false; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 750.75 Tm 0 Tr (174  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 750.75 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 750.75 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.09 Tm 0 Tr (175  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 762.09 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 762.09 Tm 0 Tr (else { yyerror\("Error : Variable "\); yyerror\($2\); yyerror\(" previously declared"\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 773.43 Tm 0 Tr (exit\(-1\); }) Tj  ET Q
+Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 14763>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 8.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr (176  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 36.42 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 36.42 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr (177  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 47.76 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 47.76 Tm 0 Tr (|TYPE VARNAME OPENBR3 DIGIT CLOSEBR3 SEMI { if\( varmap.find\($2\) == varmap.end\(\) \){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.10 Tm 0 Tr (178  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 59.10 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 59.10 Tm 0 Tr (if\(strcmp\($1,"int"\) == 0\) { cout <<"//"<<$1<<" Array " << $2 << " of size ") Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 70.44 Tm 0 Tr (<<$4<<" is declared." ; varmap[$2] = 6;  create_array\($2,$4,6\); } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 81.77 Tm 0 Tr (179  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 81.77 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 81.77 Tm 0 Tr (else if\(strcmp\($1,"double"\) == 0\) { cout <<"//"<<$1<<" Array " << $2 << " of) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.11 Tm 0 Tr (size " <<$4<<" is declared." ; varmap[$2] = 8;  create_array\($2,$4,8\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 104.45 Tm 0 Tr (180  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 104.45 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 104.45 Tm 0 Tr (else if\(strcmp\($1,"char"\) == 0\) { cout <<"//"<<$1<<" Array " << $2 << " of size) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 115.79 Tm 0 Tr (" <<$4<<" is declared." ; varmap[$2] = 9;  create_array\($2,$4,9\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.13 Tm 0 Tr (181  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 127.13 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 127.13 Tm 0 Tr (else if\(strcmp\($1,"bool"\) == 0\) { cout <<"//"<<$1<<" Array " << $2 << " of size) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 138.47 Tm 0 Tr (" <<$4<<" is declared." ; varmap[$2] = 10; create_array\($2,$4,10\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 149.81 Tm 0 Tr (182  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 149.81 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 149.81 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.14 Tm 0 Tr (183  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 161.14 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 161.14 Tm 0 Tr (else { yyerror\("Error : Variable "\); yyerror\($2\); yyerror\(" previously) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 172.48 Tm 0 Tr (declared"\);  exit\(-1\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 183.82 Tm 0 Tr (184  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 183.82 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 183.82 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.16 Tm 0 Tr (185  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 195.16 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 206.50 Tm 0 Tr (186  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 206.50 Tm 0 Tr (VALUE:  DIGIT               {$$.ival = $1; currentex = 1}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 217.84 Tm 0 Tr (187  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 217.84 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 217.84 Tm 0 Tr (|FLOATVAL           {$$.fval = $1; currentex = 2}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.18 Tm 0 Tr (188  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 229.18 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 229.18 Tm 0 Tr (|CHARACTER          {$$.cval = $1; currentex = 4}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 240.51 Tm 0 Tr (189  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 240.51 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 240.51 Tm 0 Tr (|BOOLVAL            {$$.bval = $1; currentex = 5}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 251.85 Tm 0 Tr (190  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 251.85 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 251.85 Tm 0 Tr (|STRING             {$$.str = $1;  currentex = 0;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.19 Tm 0 Tr (191  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 263.19 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 263.19 Tm 0 Tr (|VARNAME OPENBR3 NUMVALUE CLOSEBR3  { if\(varmap.find\($1\) == varmap.end\(\)\) { yyerror\("Error :) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 274.53 Tm 0 Tr (Variable "\); yyerror\($1\); yyerror\(" not declared\\n"\); exit\(-1\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 285.87 Tm 0 Tr (192  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 285.87 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 285.87 Tm 0 Tr (else {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.21 Tm 0 Tr (193  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 297.21 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 297.21 Tm 0 Tr (if\(varmap[$1] == 6\) { if\( $3 <= aivar[$1].size\(\)\){$$.ival = aivar[$1][$3];}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 308.55 Tm 0 Tr (else {yyerror\("Error : Array index out of range"\);} } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 319.88 Tm 0 Tr (194  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 319.88 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 319.88 Tm 0 Tr (else if\(varmap[$1] == 8\) { if\( $3 <= advar[$1].size\(\)\){$$.fval =) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.22 Tm 0 Tr (advar[$1][$3];} else {yyerror\("Error : Array index out of range"\);} } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 342.56 Tm 0 Tr (195  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 342.56 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 342.56 Tm 0 Tr (else if\(varmap[$1] == 9\) { if\( $3 <= acvar[$1].size\(\)\){$$.cval =) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 353.90 Tm 0 Tr (acvar[$1][$3];} else {yyerror\("Error : Array index out of range"\);} } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.24 Tm 0 Tr (196  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 365.24 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 365.24 Tm 0 Tr (else if\(varmap[$1] == 10\) { if\( $3 <= advar[$1].size\(\)\){$$.bval =) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 376.58 Tm 0 Tr (abvar[$1][$3];} else {yyerror\("Error : Array index out of range"\);} } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 387.92 Tm 0 Tr (197  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 387.92 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 387.92 Tm 0 Tr (}}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.25 Tm 0 Tr (198  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 399.25 Tm 0 Tr (;                   ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 410.59 Tm 0 Tr (199  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 421.93 Tm 0 Tr (200  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 421.93 Tm 0 Tr (read:       READ OPENBR1 VARNAME CLOSEBR1 SEMI      {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.27 Tm 0 Tr (201  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 433.27 Tm 0 Tr (                                    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 225.15 433.27 Tm 0 Tr (if\(varmap.find\($3\) == varmap.end\(\)\) { yyerror\("Error : Variable "\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 444.61 Tm 0 Tr (cout << $3 ; yyerror\(" not declared\\n"\); exit\(-1\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 455.95 Tm 0 Tr (202  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 455.95 Tm 0 Tr (                                    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 225.15 455.95 Tm 0 Tr (else {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.29 Tm 0 Tr (203  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 467.29 Tm 0 Tr (                                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 467.29 Tm 0 Tr (if\(varmap[$3] == 1\) { if\(currentex == 1\) { int a; scanf\("%d",&a\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 478.62 Tm 0 Tr (ivar[$3] = a;cout <<"Value of "<<$3<< " read as " <<a<< endl;}  }                                 ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 489.96 Tm 0 Tr (204  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 489.96 Tm 0 Tr (                                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 489.96 Tm 0 Tr (else if\(varmap[$3] == 3\) { if\(currentex == 2\) {double a;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.30 Tm 0 Tr (scanf\("lf",&a\); dvar[$3] = a;cout <<"Value of "<<$3<<" read as "<<a<<endl; } } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 512.64 Tm 0 Tr (205  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 512.64 Tm 0 Tr (                                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 512.64 Tm 0 Tr (else if\(varmap[$3] == 4\) { if\(currentex == 4\) {char a;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 523.98 Tm 0 Tr (scanf\("%c",&a\); cvar[$3] = a;cout <<"Value of "<<$3<<" read as "<<a<< endl; } } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.32 Tm 0 Tr (206  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 535.32 Tm 0 Tr (                                    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 225.15 535.32 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 546.66 Tm 0 Tr (207  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 546.66 Tm 0 Tr (                                    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 225.15 546.66 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 557.99 Tm 0 Tr (208  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 557.99 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 557.99 Tm 0 Tr (|READ OPENBR1 VARNAME OPENBR3 NUMVALUE CLOSEBR3 CLOSEBR1 SEMI       { ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.33 Tm 0 Tr (209  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 569.33 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 569.33 Tm 0 Tr (if\(varmap.find\($3\) == varmap.end\(\)\) { yyerror\("Error : Variable "\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 580.67 Tm 0 Tr (yyerror\($3\); yyerror\(" not declared\\n"\); exit\(-1\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.01 Tm 0 Tr (210  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 592.01 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 592.01 Tm 0 Tr (else {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.35 Tm 0 Tr (211  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 603.35 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 603.35 Tm 0 Tr (if\(varmap[$3] == 6\) { if\( $5 <= aivar[$3].size\(\)\){  int a; scanf\("%d",&a\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 614.69 Tm 0 Tr (aivar[$3][$5] = a; cout << "Value of " << $3 << "[" << $5 << "]" << " read as " << a << endl;} else) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.03 Tm 0 Tr ({yyerror\("Error : Array index out of range"\);} } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.36 Tm 0 Tr (212  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 637.36 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 637.36 Tm 0 Tr (else if\(varmap[$3] == 8\) { if\( $5 <= advar[$3].size\(\)\){ double a;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 648.70 Tm 0 Tr (scanf\("lf",&a\); advar[$3][$5] = a; cout << "Value of " << $3 << "[" << $5 << "]" << " read as " << a << endl;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.04 Tm 0 Tr (else {yyerror\("Error : Array index out of range"\);} } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.38 Tm 0 Tr (213  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 671.38 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 671.38 Tm 0 Tr (else if\(varmap[$3] == 9\) { if\( $5 <= acvar[$3].size\(\)\){ char a;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 682.72 Tm 0 Tr (scanf\("%c",&a\); acvar[$3][$5] =  a; cout << "Value of " << $3 << "[" << $5 << "]" << " read as " << a << endl;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.06 Tm 0 Tr (else {yyerror\("Error : Array index out of range"\);} } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.40 Tm 0 Tr (214  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 705.40 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 705.40 Tm 0 Tr (}}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 716.73 Tm 0 Tr (215  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 716.73 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.07 Tm 0 Tr (216  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 728.07 Tm 0 Tr (show:       SHOW OPENBR1 SHOWSTR CLOSEBR1 SEMI {cout << endl; }         ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 739.41 Tm 0 Tr (217  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 739.41 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 750.75 Tm 0 Tr (218  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 750.75 Tm 0 Tr (SHOWSTR:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.09 Tm 0 Tr (219  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 762.09 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 762.09 Tm 0 Tr (|STRING         { cout << $1 ; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 773.43 Tm 0 Tr (220  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 773.43 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 773.43 Tm 0 Tr (|VARNAME        { if\(varmap.find\($1\) == varmap.end\(\)\) { yyerror\("Error : Variable "\); yyerror\($1\);) Tj  ET Q
+Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 14414>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 8.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr (yyerror\(" not declared\\n"\); exit\(-1\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr (221  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 47.76 Tm 0 Tr (                      ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 157.95 47.76 Tm 0 Tr (else {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.10 Tm 0 Tr (222  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 59.10 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 59.10 Tm 0 Tr (if\(varmap[$1] == 1\) { cout << ivar[$1]; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 70.44 Tm 0 Tr (223  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 70.44 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 70.44 Tm 0 Tr (else if\(varmap[$1] == 3\) { cout << dvar[$1]; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 81.77 Tm 0 Tr (224  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 81.77 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 81.77 Tm 0 Tr (else if\(varmap[$1] == 4\) { cout << cvar[$1];  }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.11 Tm 0 Tr (225  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 93.11 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 93.11 Tm 0 Tr (else if\(varmap[$1] == 5\) { cout << bvar[$1]; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 104.45 Tm 0 Tr (226  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 104.45 Tm 0 Tr (                    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 104.45 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 115.79 Tm 0 Tr (227  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 115.79 Tm 0 Tr (                    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 115.79 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.13 Tm 0 Tr (228  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 127.13 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 127.13 Tm 0 Tr (|VARNAME OPENBR3 NUMVALUE CLOSEBR3  { if\(varmap.find\($1\) == varmap.end\(\)\) { yyerror\("Error :) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 138.47 Tm 0 Tr (Variable "\); yyerror\($1\); yyerror\(" not declared\\n"\); exit\(-1\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 149.81 Tm 0 Tr (229  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 149.81 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 149.81 Tm 0 Tr (else {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.14 Tm 0 Tr (230  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 161.14 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 161.14 Tm 0 Tr (if\(varmap[$1] == 6\) { if\( $3 <= aivar[$1].size\(\)\){cout << aivar[$1][$3];}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 172.48 Tm 0 Tr (else {yyerror\("Error : Array index out of range"\);} }  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 183.82 Tm 0 Tr (231  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 183.82 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 183.82 Tm 0 Tr (else if\(varmap[$1] == 8\) { if\( $3 <= advar[$1].size\(\)\){cout <<) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.16 Tm 0 Tr (advar[$1][$3];} else {yyerror\("Error : Array index out of range"\);} } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 206.50 Tm 0 Tr (232  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 206.50 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 206.50 Tm 0 Tr (else if\(varmap[$1] == 9\) { if\( $3 <= acvar[$1].size\(\)\){cout <<) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 217.84 Tm 0 Tr (acvar[$1][$3];} else {yyerror\("Error : Array index out of range"\);} } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.18 Tm 0 Tr (233  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 229.18 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 229.18 Tm 0 Tr (else if\(varmap[$1] == 10\) { if\( $3 <= advar[$1].size\(\)\){cout <<) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 240.51 Tm 0 Tr (abvar[$1][$3];} else {yyerror\("Error : Array index out of range"\);} } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 251.85 Tm 0 Tr (234  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 251.85 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 251.85 Tm 0 Tr (}}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.19 Tm 0 Tr (235  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 263.19 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 274.53 Tm 0 Tr (236  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 274.53 Tm 0 Tr (VARIABLE:   VARNAME { if\(varmap.find\($1\) == varmap.end\(\)\) { yyerror\("Error  : Variable "\); yyerror\($1\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 285.87 Tm 0 Tr (yyerror\(" not declared\\n"\); exit\(-1\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.21 Tm 0 Tr (237  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 297.21 Tm 0 Tr (              ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 119.55 297.21 Tm 0 Tr (else {     ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 308.55 Tm 0 Tr (238  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 308.55 Tm 0 Tr (             ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 114.75 308.55 Tm 0 Tr (if\(varmap[$1] == 1\) { cout << ivar[$1] << endl; $$.ival = ivar[$1]; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 319.88 Tm 0 Tr (239  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 319.88 Tm 0 Tr (              ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 119.55 319.88 Tm 0 Tr (else if\(varmap[$1] == 3\) { $$.fval = dvar[$1]; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.22 Tm 0 Tr (240  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 331.22 Tm 0 Tr (              ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 119.55 331.22 Tm 0 Tr (else if\(varmap[$1] == 4\) { $$.cval = cvar[$1];  }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 342.56 Tm 0 Tr (241  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 342.56 Tm 0 Tr (                  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 138.75 342.56 Tm 0 Tr (else if\(varmap[$1] == 5\) { $$.bval = bvar[$1]; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 353.90 Tm 0 Tr (242  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 353.90 Tm 0 Tr (            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 109.95 353.90 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.24 Tm 0 Tr (243  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 365.24 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 365.24 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 376.58 Tm 0 Tr (244  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 376.58 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 387.92 Tm 0 Tr (245  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 387.92 Tm 0 Tr (TYPE: INT       {$$ = $1;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.25 Tm 0 Tr (246  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 399.25 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 399.25 Tm 0 Tr (|CHAR       {$$ = $1;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 410.59 Tm 0 Tr (247  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 410.59 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 410.59 Tm 0 Tr (|DOUBLE     {$$ = $1;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 421.93 Tm 0 Tr (248  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 421.93 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 421.93 Tm 0 Tr (|BOOL       {$$ = $1;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.27 Tm 0 Tr (249  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 433.27 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 444.61 Tm 0 Tr (250  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 455.95 Tm 0 Tr (251  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 455.95 Tm 0 Tr (EXP:    VARNAME EQUAL EX SEMI       { if\(varmap.find\($1\) == varmap.end\(\)\) { yyerror\("Error : Variable "\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.29 Tm 0 Tr (yyerror\($1\); yyerror\(" not declared\\n"\); exit\(-1\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 478.62 Tm 0 Tr (252  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 478.62 Tm 0 Tr (                    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 478.62 Tm 0 Tr (else {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 489.96 Tm 0 Tr (253  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 489.96 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 489.96 Tm 0 Tr (if\(varmap[$1] == 1\) { currentex = 1; ivar[$1] = $3.ival; $$ = \(double\)\($3.ival\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.30 Tm 0 Tr (254  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 501.30 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 501.30 Tm 0 Tr (else if\(varmap[$1] == 3\) { currentex = 2; dvar[$1] = $3.fval; $$ = $3.fval; } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 512.64 Tm 0 Tr (255  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 512.64 Tm 0 Tr (                    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 512.64 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 523.98 Tm 0 Tr (256  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 523.98 Tm 0 Tr (                    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 523.98 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.32 Tm 0 Tr (257  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 535.32 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 546.66 Tm 0 Tr (258  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 557.99 Tm 0 Tr (259  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 557.99 Tm 0 Tr (EX: EX PLUS T           { if\(currentex == 1\) { $$.ival = $1.ival + $3.ival; } else { $$.fval = $1.fval +) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.33 Tm 0 Tr ($3.fval; } }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 580.67 Tm 0 Tr (260  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 580.67 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 580.67 Tm 0 Tr (|EX MINUS T         { if\(currentex == 1\) { $$.ival = $1.ival - $3.ival; } else { $$.fval = $1.fval -) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.01 Tm 0 Tr ($3.fval; } }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.35 Tm 0 Tr (261  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 603.35 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 603.35 Tm 0 Tr (|T              { if\(currentex == 1\) { $$.ival = $1.ival ; } else { $$.fval = $1.fval ; } }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 614.69 Tm 0 Tr (262  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 614.69 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.03 Tm 0 Tr (263  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 626.03 Tm 0 Tr (T:  T MUL F         { if\(currentex == 1\) { $$.ival = $1.ival * $3.ival; } else { $$.fval = $1.fval *) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.36 Tm 0 Tr ($3.fval ; } } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 648.70 Tm 0 Tr (264  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 648.70 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 648.70 Tm 0 Tr (|T DIV F            { if\(currentex == 1\) { $$.ival = $1.ival / $3.ival ;} else { $$.fval = $1.fval /) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.04 Tm 0 Tr ($3.fval;  } }  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.38 Tm 0 Tr (265  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 671.38 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 671.38 Tm 0 Tr (|F              { if\(currentex == 1\) { $$.ival = $1.ival ; } else { $$.fval = $1.fval ; } } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 682.72 Tm 0 Tr (266  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 682.72 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.06 Tm 0 Tr (267  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 694.06 Tm 0 Tr (F:   OPENBR1 EX CLOSEBR1        { if\(currentex == 1\) { $$.ival = $2.ival; } else { $$.fval = $2.fval; } }  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.40 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 716.73 Tm 0 Tr (268  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 716.73 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 716.73 Tm 0 Tr (|VARNAME            { if\(varmap.find\($1\) == varmap.end\(\)\) { yyerror\("Error  : Variable "\); yyerror\($1\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.07 Tm 0 Tr (yyerror\(" not declared\\n"\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 739.41 Tm 0 Tr (269  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 739.41 Tm 0 Tr (                      ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 157.95 739.41 Tm 0 Tr (else {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 750.75 Tm 0 Tr (270  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 750.75 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 750.75 Tm 0 Tr (if\(varmap[$1] == 1\) { $$.ival = ivar[$1]; currentex = 1;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.09 Tm 0 Tr (271  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 762.09 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 762.09 Tm 0 Tr (else if\(varmap[$1] == 3\) { $$.fval = dvar[$1]; currentex = 3;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 773.43 Tm 0 Tr (272  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 773.43 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 773.43 Tm 0 Tr (else { yyerror\("Error : Expected an integer or double"\); }) Tj  ET Q
+Q
+
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 14 0 R>>
+endobj
+14 0 obj
+<</Length 15677>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 8.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr (273  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 36.42 Tm 0 Tr (                      ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 157.95 36.42 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr (274  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 47.76 Tm 0 Tr (                    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 47.76 Tm 0 Tr (}   ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.10 Tm 0 Tr (275  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 59.10 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 59.10 Tm 0 Tr (|DIGIT              { $$.ival = $1; currentex = 1;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 70.44 Tm 0 Tr (276  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 70.44 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 70.44 Tm 0 Tr (|FLOATVAL           { $$.fval = $1; currentex = 2; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 81.77 Tm 0 Tr (277  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 81.77 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 81.77 Tm 0 Tr (|VARNAME OPENBR3 NUMVALUE CLOSEBR3  { if\(varmap.find\($1\) == varmap.end\(\)\) { yyerror\("Error : Variable) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.11 Tm 0 Tr ("\); yyerror\($1\); yyerror\(" not declared\\n"\); exit\(-1\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 104.45 Tm 0 Tr (278  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 104.45 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 104.45 Tm 0 Tr (else {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 115.79 Tm 0 Tr (279  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 115.79 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 115.79 Tm 0 Tr (if\(varmap[$1] == 6\) { if\( $3 <= aivar[$1].size\(\)\){$$.ival = aivar[$1][$3];}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.13 Tm 0 Tr (else {yyerror\("Error : Array index out of range"\);} } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 138.47 Tm 0 Tr (280  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 138.47 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 138.47 Tm 0 Tr (else if\(varmap[$1] == 8\) { if\( $3 <= advar[$1].size\(\)\){$$.fval =) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 149.81 Tm 0 Tr (advar[$1][$3];} else {yyerror\("Error : Array index out of range"\);} } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.14 Tm 0 Tr (281  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 161.14 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 161.14 Tm 0 Tr (else { yyerror\("Error : Expected an integer or float or double"\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 172.48 Tm 0 Tr (282  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 172.48 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 172.48 Tm 0 Tr (}}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 183.82 Tm 0 Tr (283  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 183.82 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.16 Tm 0 Tr (284  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 195.16 Tm 0 Tr (condx:  VARNAME EQUAL CONDX SEMI    { if\(varmap.find\($1\) == varmap.end\(\)\) { yyerror\("Error : Variable "\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 206.50 Tm 0 Tr (yyerror\($1\); yyerror\(" not declared\\n"\); exit\(-1\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 217.84 Tm 0 Tr (285  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 217.84 Tm 0 Tr (                      ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 157.95 217.84 Tm 0 Tr (else { if\(varmap[$1] == 5\) { bvar[$1] = $3;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.18 Tm 0 Tr (286  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 229.18 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 229.18 Tm 0 Tr (else { yyerror\("Error : Expected bool"\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 240.51 Tm 0 Tr (287  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 240.51 Tm 0 Tr (                      ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 157.95 240.51 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 251.85 Tm 0 Tr (288  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 251.85 Tm 0 Tr (                    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 251.85 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.19 Tm 0 Tr (289  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 263.19 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 263.19 Tm 0 Tr (|TYPE VARNAME EQUAL CONDX SEMI  { ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 274.53 Tm 0 Tr (290  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 274.53 Tm 0 Tr (                      ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 157.95 274.53 Tm 0 Tr (if\(strcmp\($1,"bool"\) != 0\) { yyerror\("Error : A boolean expression must be placed in) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 285.87 Tm 0 Tr (a variable of type bool not "\); yyerror\($1\); yyerror\("\\n"\); exit\(-1\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.21 Tm 0 Tr (291  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 297.21 Tm 0 Tr (                      ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 157.95 297.21 Tm 0 Tr (else bvar[$2] = $4;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 308.55 Tm 0 Tr (292  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 308.55 Tm 0 Tr (                    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 308.55 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 319.88 Tm 0 Tr (293  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 319.88 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.22 Tm 0 Tr (294  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 331.22 Tm 0 Tr (CONDX:  NOT CONDX       { $$ = !\($2\) }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 342.56 Tm 0 Tr (295  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 342.56 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 342.56 Tm 0 Tr (|CONDX AND A        { $$ = \($1 and $3.bval\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 353.90 Tm 0 Tr (296  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 353.90 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 353.90 Tm 0 Tr (|CONDX OR A     { $$ = \($1 or $3.bval\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.24 Tm 0 Tr (297  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 365.24 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 365.24 Tm 0 Tr (|A          { $$ = $1.bval; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 376.58 Tm 0 Tr (298  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 376.58 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 387.92 Tm 0 Tr (299  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 387.92 Tm 0 Tr (A:  A EQUAL EQUAL B     { if\($1.fval == $4\) { $$.bval = true; } else { $$.bval = false; } }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.25 Tm 0 Tr (300  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 399.25 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 399.25 Tm 0 Tr (|A NOT EQUAL B      { if\($1.fval != $4\) { $$.bval = true; } else { $$.bval = false; } }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 410.59 Tm 0 Tr (301  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 410.59 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 410.59 Tm 0 Tr (|A GREATER B        { if\($1.fval > $3\) { $$.bval = true; } else { $$.bval = false; } }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 421.93 Tm 0 Tr (302  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 421.93 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 421.93 Tm 0 Tr (|A GREATEREQ B      { if\($1.fval >= $3\) { $$.bval = true; } else { $$.bval = false; } }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.27 Tm 0 Tr (303  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 433.27 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 433.27 Tm 0 Tr (|A LESS B       { if\($1.fval < $3\) { $$.bval = true; } else { $$.bval = false; } }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 444.61 Tm 0 Tr (304  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 444.61 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 444.61 Tm 0 Tr (|A LESSEQ B     { if\($1.fval <= $3\) { $$.bval = true; } else { $$.bval = false; } }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 455.95 Tm 0 Tr (305  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 455.95 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 455.95 Tm 0 Tr (|OPENBR1 CONDX CLOSEBR1 { $$.bval = $2; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.29 Tm 0 Tr (306  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 467.29 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 467.29 Tm 0 Tr (|B          { $$.fval = $1; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 478.62 Tm 0 Tr (307  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 478.62 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 489.96 Tm 0 Tr (308  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 489.96 Tm 0 Tr (B:  OPENBR1 CONDX CLOSEBR1  { $$ = $2; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.30 Tm 0 Tr (309  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 501.30 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 501.30 Tm 0 Tr (|C          { $$ = $1; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 512.64 Tm 0 Tr (310  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 512.64 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 523.98 Tm 0 Tr (311  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 523.98 Tm 0 Tr (C:  BOOLVAL         { $$ = $1;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.32 Tm 0 Tr (312  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 535.32 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 535.32 Tm 0 Tr (|DIGIT          { $$ = \(float\) \($1\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 546.66 Tm 0 Tr (313  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 546.66 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 546.66 Tm 0 Tr (|FLOATVAL       { $$ = $1;} ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 557.99 Tm 0 Tr (314  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 557.99 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 557.99 Tm 0 Tr (|VARNAME        { if\(varmap.find\($1\) == varmap.end\(\)\) { yyerror\("Error : Variable "\); yyerror\($1\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.33 Tm 0 Tr (yyerror\(" not declared\\n"\);exit\(-1\);} ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 580.67 Tm 0 Tr (315  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 580.67 Tm 0 Tr (                      ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 157.95 580.67 Tm 0 Tr (else {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.01 Tm 0 Tr (316  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 592.01 Tm 0 Tr (                    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 592.01 Tm 0 Tr (if\(varmap[$1] == 1\) { $$ = \(float\) \(ivar[$1]\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.35 Tm 0 Tr (317  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 603.35 Tm 0 Tr (                    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 603.35 Tm 0 Tr (else if\(varmap[$1] == 3\) { currentex = 2; $$ = dvar[$1];}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 614.69 Tm 0 Tr (318  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 614.69 Tm 0 Tr (                    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 614.69 Tm 0 Tr (else if\(varmap[$1] == 4\) { currentex = 2; $$ = \(float\) \(cvar[$1]\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.03 Tm 0 Tr (319  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 626.03 Tm 0 Tr (                  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 138.75 626.03 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.36 Tm 0 Tr (320  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 637.36 Tm 0 Tr (                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 129.15 637.36 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 648.70 Tm 0 Tr (321  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 648.70 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 648.70 Tm 0 Tr (|CHARACTER      { $$ = \(float\)\($1\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.04 Tm 0 Tr (322  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 660.04 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 660.04 Tm 0 Tr (|VARNAME OPENBR3 NUMVALUE CLOSEBR3  { if\(varmap.find\($1\) == varmap.end\(\)\) { yyerror\("Error : Variable) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.38 Tm 0 Tr ("\); yyerror\($1\); yyerror\(" not declared\\n"\); exit\(-1\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 682.72 Tm 0 Tr (323  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 682.72 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 682.72 Tm 0 Tr (else {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.06 Tm 0 Tr (324  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 694.06 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 694.06 Tm 0 Tr (if\(varmap[$1] == 6\) { if\( $3 <= aivar[$1].size\(\)\){$$ =) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.40 Tm 0 Tr (\(float\)\(aivar[$1][$3]\);} else {yyerror\("Error : Array index out of range"\); exit\(-1\);} } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 716.73 Tm 0 Tr (325  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 716.73 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 716.73 Tm 0 Tr (else if\(varmap[$1] == 8\) { if\( $3 <= advar[$1].size\(\)\){$$ = advar[$1][$3];}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.07 Tm 0 Tr (else {yyerror\("Error : Array index out of range"\); exit\(-1\);} } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 739.41 Tm 0 Tr (326  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 739.41 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 739.41 Tm 0 Tr (else if\(varmap[$1] == 9\) { if\( $3 <= acvar[$1].size\(\)\){$$ =) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 750.75 Tm 0 Tr (\(float\)\(acvar[$1][$3]\);} else {yyerror\("Error : Array index out of range"\); exit\(-1\);} } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.09 Tm 0 Tr (327  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 762.09 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 762.09 Tm 0 Tr (else { yyerror\("Error : Expected an integer or float or double"\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 773.43 Tm 0 Tr (328  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 773.43 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 773.43 Tm 0 Tr (}}  ) Tj  ET Q
+Q
+
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 16 0 R>>
+endobj
+16 0 obj
+<</Length 14118>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 8.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr (329  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 36.42 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr (330  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 47.76 Tm 0 Tr (IFELSE: IF CONDX COLON IFELSE else ENDIF    {  ifelfound = 0; if\($2 == true\) $$ = $4; else $$ = $5; }      ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.10 Tm 0 Tr (                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 70.44 Tm 0 Tr (331  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 70.44 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 70.44 Tm 0 Tr (|IF CONDX COLON IFELSE ENDIF { ifelfound = 0; if\($2 == true\) $$ = $4; else $$ = -100;       }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 81.77 Tm 0 Tr (332  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 81.77 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 81.77 Tm 0 Tr (|EXP                { $$ = $1; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.11 Tm 0 Tr (333  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 93.11 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 104.45 Tm 0 Tr (334  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 104.45 Tm 0 Tr (else:   ELIF CONDX COLON IFELSE else { if\($2 == true\){ $$ = $4; ifelfound = 1;}  else{$$ = $5;} }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 115.79 Tm 0 Tr (335  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 115.79 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 115.79 Tm 0 Tr (|ELIF CONDX COLON IFELSE { if\($2 == true\){ $$ = $4; ifelfound = 1;} else{$$ = -100;}    }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.13 Tm 0 Tr (336  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 127.13 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 127.13 Tm 0 Tr (|ELSE COLON IFELSE { if\(ifelfound == 0\) $$= $3; else $$ = -100; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 138.47 Tm 0 Tr (337  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 138.47 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 149.81 Tm 0 Tr (338  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 149.81 Tm 0 Tr (FL: LOOP VARNAME IN NUMVALUE DOT DOT NUMVALUE BY NUMVALUE COLON EXP ENDLOOP { if\(varmap.find\($2\) ==) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.14 Tm 0 Tr (varmap.end\(\)\) { yyerror\("Error : Variable "\); yyerror\($2\); yyerror\(" not declared\\n"\); exit\(-1\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 172.48 Tm 0 Tr (339  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 172.48 Tm 0 Tr (                                                          ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 330.75 172.48 Tm 0 Tr (if\(varmap[$2] != 1\) { yyerror\("Error : Expected) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 183.82 Tm 0 Tr (an integer in "\); yyerror\($2\); yyerror\("\\n"\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.16 Tm 0 Tr (340  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 195.16 Tm 0 Tr (                                                          ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 330.75 195.16 Tm 0 Tr (cout << "//For loop detected\\n";) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 206.50 Tm 0 Tr (341  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 206.50 Tm 0 Tr (                                                          ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 330.75 206.50 Tm 0 Tr (if\($4<=$7\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 217.84 Tm 0 Tr (342  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 217.84 Tm 0 Tr (                                                          ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 330.75 217.84 Tm 0 Tr (for\(ivar[$2] = $4; ivar[$2] <= $7 ; ivar[$2] =) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.18 Tm 0 Tr (ivar[$2] + $9\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 240.51 Tm 0 Tr (343  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 240.51 Tm 0 Tr (                                                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 340.35 240.51 Tm 0 Tr (cout << "//Value of expression : " << $11 <<) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 251.85 Tm 0 Tr (endl;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.19 Tm 0 Tr (344  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 263.19 Tm 0 Tr (                                                          ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 330.75 263.19 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 274.53 Tm 0 Tr (345  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 274.53 Tm 0 Tr (                                                          ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 330.75 274.53 Tm 0 Tr (else{) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 285.87 Tm 0 Tr (346  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 285.87 Tm 0 Tr (                                                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 340.35 285.87 Tm 0 Tr (for\(ivar[$2] = $4; ivar[$2] >= $7 ; ivar[$2] =) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.21 Tm 0 Tr (ivar[$2] - $9\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 308.55 Tm 0 Tr (347  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 308.55 Tm 0 Tr (                                                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 359.55 308.55 Tm 0 Tr (cout << "//Value of expression : " << $11) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 319.88 Tm 0 Tr (<< endl;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.22 Tm 0 Tr (348  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 331.22 Tm 0 Tr (                                                          ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 330.75 331.22 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 342.56 Tm 0 Tr (349  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 342.56 Tm 0 Tr (                                                          ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 330.75 342.56 Tm 0 Tr (cout << endl;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 353.90 Tm 0 Tr (350  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 353.90 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.24 Tm 0 Tr (351  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 365.24 Tm 0 Tr (NUMVALUE:   VARNAME { if\(varmap.find\($1\) == varmap.end\(\)\) { yyerror\("Error : Variable "\); yyerror\($1\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 376.58 Tm 0 Tr (yyerror\(" not declared\\n"\);  exit\(-1\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 387.92 Tm 0 Tr (352  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 387.92 Tm 0 Tr (                     ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 153.15 387.92 Tm 0 Tr (else { if\(varmap[$1] != 1 \) { yyerror\("Error : Expected an integer variable in "\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.25 Tm 0 Tr (yyerror\($1\); yyerror\("\\n"\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 410.59 Tm 0 Tr (353  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 410.59 Tm 0 Tr (                     ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 153.15 410.59 Tm 0 Tr (else { $$ = ivar[$1]; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 421.93 Tm 0 Tr (354  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 421.93 Tm 0 Tr (                  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 138.75 421.93 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.27 Tm 0 Tr (355  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 433.27 Tm 0 Tr (                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 129.15 433.27 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 444.61 Tm 0 Tr (356  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 444.61 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 444.61 Tm 0 Tr (|DIGIT          { $$ = $1; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 455.95 Tm 0 Tr (357  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 455.95 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 455.95 Tm 0 Tr (|DOUBLE     { yyerror\("Error : Expected an integer"\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.29 Tm 0 Tr (358  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 467.29 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 467.29 Tm 0 Tr (|CHARACTER  { yyerror\("Error : Expected an integer"\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 478.62 Tm 0 Tr (359  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 478.62 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 478.62 Tm 0 Tr (|BOOLVAL    { yyerror\("Error : Expected an integer"\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 489.96 Tm 0 Tr (360  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 489.96 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 489.96 Tm 0 Tr (|VARNAME OPENBR3 NUMVALUE CLOSEBR3  { if\(varmap.find\($1\) == varmap.end\(\)\) { yyerror\("Error :) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.30 Tm 0 Tr (Variable "\); yyerror\($1\); yyerror\(" not declared\\n"\);  exit\(-1\);}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 512.64 Tm 0 Tr (361  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 512.64 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 512.64 Tm 0 Tr (else {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 523.98 Tm 0 Tr (362  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 523.98 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 523.98 Tm 0 Tr (if\(varmap[$1] == 6\) { if\( $3 <= aivar[$1].size\(\)\){$$ = aivar[$1][$3];} else) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.32 Tm 0 Tr ({yyerror\("Error : Array index out of range"\); exit\(-1\);} } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 546.66 Tm 0 Tr (363  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 546.66 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 546.66 Tm 0 Tr (else { yyerror\("Error : Expected an integer"\); }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 557.99 Tm 0 Tr (364  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 557.99 Tm 0 Tr (                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 557.99 Tm 0 Tr (}}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.33 Tm 0 Tr (365  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 569.33 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 580.67 Tm 0 Tr (366  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 580.67 Tm 0 Tr (WH :        WHILE CONDX EXP ENDWHILE            { cout << "//while loop found." << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.01 Tm 0 Tr (367  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 592.01 Tm 0 Tr (                                            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 263.55 592.01 Tm 0 Tr (//   while\($2==true\) {cout<< "//Value of expression :) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.35 Tm 0 Tr ("<<$3<<endl; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 614.69 Tm 0 Tr (368  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 614.69 Tm 0 Tr (                                                  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 292.35 614.69 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.03 Tm 0 Tr (369  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 626.03 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.36 Tm 0 Tr (370  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 637.36 Tm 0 Tr (singlecomment:  SCMNT               { cout << "//Single line comment" << endl; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 648.70 Tm 0 Tr (371  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 648.70 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.04 Tm 0 Tr (372  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 660.04 Tm 0 Tr (multicomment:   MCMNT               { cout << "//Multiple line comment" << endl; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.38 Tm 0 Tr (373  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 671.38 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 682.72 Tm 0 Tr (374  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 682.72 Tm 0 Tr (empty:  SEMI                    { cout<<"//empty statement"<<endl;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.06 Tm 0 Tr (375  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 694.06 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.40 Tm 0 Tr (376  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 705.40 Tm 0 Tr (funcs : ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 716.73 Tm 0 Tr (377  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 716.73 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 716.73 Tm 0 Tr (|func funcs) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.07 Tm 0 Tr (378  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 728.07 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 739.41 Tm 0 Tr (379  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 739.41 Tm 0 Tr (func :  FUNC TYPE VARNAME OPENBR1 PARAMLIST CLOSEBR1 exp returns FUNCEND  { cout << "//Function " << $3 <<) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 750.75 Tm 0 Tr (" declared." << endl; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.09 Tm 0 Tr (380  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 762.09 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 773.43 Tm 0 Tr (381  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 773.43 Tm 0 Tr (exp :   ) Tj  ET Q
+Q
+
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 18 0 R>>
+endobj
+18 0 obj
+<</Length 14332>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 8.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr (382  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 36.42 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 36.42 Tm 0 Tr (|EXP {cout<<"exp";}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr (383  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 47.76 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.10 Tm 0 Tr (384  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 59.10 Tm 0 Tr (PARAMLIST :) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 70.44 Tm 0 Tr (385  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 70.44 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 70.44 Tm 0 Tr (|TYPE COLON VARNAME COMM PARAMLIST   { if\(strcmp\($1,"int"\) == 0\) { varmap[$3] = 1; ivar[$3] = 0; } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 81.77 Tm 0 Tr (386  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 81.77 Tm 0 Tr (                                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 81.77 Tm 0 Tr (else if\(strcmp\($1,"double"\) == 0\) {varmap[$3] = 3; dvar[$3] = 0.0;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.11 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 104.45 Tm 0 Tr (387  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 104.45 Tm 0 Tr (                                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 104.45 Tm 0 Tr (else if\(strcmp\($1,"char"\) == 0\) {varmap[$3] = 4; cvar[$3] = '#'; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 115.79 Tm 0 Tr (388  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 115.79 Tm 0 Tr (                                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 115.79 Tm 0 Tr (else if\(strcmp\($1,"bool"\) == 0\) {varmap[$3] = 5; bvar[$3] = true; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.13 Tm 0 Tr (389  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 127.13 Tm 0 Tr (                                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 127.13 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 138.47 Tm 0 Tr (390  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 138.47 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 138.47 Tm 0 Tr (|TYPE COLON VARNAME {  if\(strcmp\($1,"int"\) == 0\) {varmap[$3] = 1; ivar[$3] = 0; } ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 149.81 Tm 0 Tr (391  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 149.81 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 149.81 Tm 0 Tr (else if\(strcmp\($1,"double"\) == 0\) {varmap[$3] = 3; dvar[$3] = 0.0; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.14 Tm 0 Tr (392  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 161.14 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 161.14 Tm 0 Tr (else if\(strcmp\($1,"char"\) == 0\) {varmap[$3] = 4; cvar[$3] = '#'; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 172.48 Tm 0 Tr (393  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 172.48 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 172.48 Tm 0 Tr (else if\(strcmp\($1,"bool"\) == 0\) {varmap[$3] = 5; bvar[$3] = true; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 183.82 Tm 0 Tr (394  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 183.82 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 183.82 Tm 0 Tr (cout<<varmap[$3]<<endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.16 Tm 0 Tr (395  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 195.16 Tm 0 Tr (                        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 195.16 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 206.50 Tm 0 Tr (396  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 206.50 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 217.84 Tm 0 Tr (397  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 217.84 Tm 0 Tr (returns:    RETURN VALUE SEMI) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.18 Tm 0 Tr (398  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 229.18 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 229.18 Tm 0 Tr (|RETURN VARNAME SEMI            { if\(varmap[$2]==0\){ //if\( varmap.find\($2\) == varmap.end\(\)\) { ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 240.51 Tm 0 Tr (399  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 240.51 Tm 0 Tr (            ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 109.95 240.51 Tm 0 Tr (yyerror\("Error : Variable "\); yyerror\($2\); yyerror\(" not declared\\n"\); }}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 251.85 Tm 0 Tr (400  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 251.85 Tm 0 Tr (;   ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.19 Tm 0 Tr (401  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 263.19 Tm 0 Tr (fcall : GCD OPENBR1 NUMVALUE COMM NUMVALUE CLOSEBR1 SEMI { cout<<"GCD : "<< __gcd\($3,$5\) <<endl; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 274.53 Tm 0 Tr (402  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 274.53 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 274.53 Tm 0 Tr (| LCM OPENBR1 NUMVALUE COMM NUMVALUE CLOSEBR1 SEMI { cout<<"LCM :) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 285.87 Tm 0 Tr ("<<\(\($3\)*\(\($5\)/__gcd\($3,$5\)\)\)<<endl;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.21 Tm 0 Tr (403  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 297.21 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 297.21 Tm 0 Tr (| SQRT OPENBR1 FLOATVAL CLOSEBR1 SEMI { cout<<"Square root of value : "<<sqrt\($3\)<<endl; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 308.55 Tm 0 Tr (404  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 308.55 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 308.55 Tm 0 Tr (| SQ OPENBR1 FLOATVAL CLOSEBR1 SEMI {cout<<"Square of value :"<<$3*$3<<endl;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 319.88 Tm 0 Tr (405  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 319.88 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 319.88 Tm 0 Tr (| QUBE OPENBR1 FLOATVAL CLOSEBR1 SEMI  {cout<<"Qube of value :"<<$3*$3*$3<<endl;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.22 Tm 0 Tr (406  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 331.22 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 331.22 Tm 0 Tr (| ISPRM OPENBR1 NUMVALUE CLOSEBR1 SEMI {siv\(\); if\(\($3 % 2 == 1 && isprime[$3]==0 \) || $3 ==) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 342.56 Tm 0 Tr (2\)cout<<$3<<" is prime."<<endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 353.90 Tm 0 Tr (407  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 353.90 Tm 0 Tr (                                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 282.75 353.90 Tm 0 Tr (else cout<<$3<<" is not a prime."<<endl; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.24 Tm 0 Tr (408  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 365.24 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 365.24 Tm 0 Tr (| PRIME OPENBR1 NUMVALUE CLOSEBR1 SEMI {siv\(\); cout<<$3<<" th prime number is : "<<pr[$3 - 1) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 376.58 Tm 0 Tr (]<<endl;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 387.92 Tm 0 Tr (409  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 387.92 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 387.92 Tm 0 Tr (| FIBO OPENBR1 NUMVALUE CLOSEBR1 SEMI { if\($3<3\) cout<<"1st Fibonacci number is 1"<<endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.25 Tm 0 Tr (410  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 399.25 Tm 0 Tr (                                ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 205.95 399.25 Tm 0 Tr (else{ int x=1,y=1,z;for\(int i=0;i< $3 - 2 ;i++\){ z=x+y; x=y;y=z; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 410.59 Tm 0 Tr (cout<<$3<<" th Fibonacci number is : "<<z<<endl;} }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 421.93 Tm 0 Tr (411  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 421.93 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 421.93 Tm 0 Tr (| POW OPENBR1 NUMV COMM NUMV CLOSEBR1 SEMI { cout<<$3<<" to the power "<<$5<<" is :) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.27 Tm 0 Tr ("<<powl\($3,$5\)<<endl; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 444.61 Tm 0 Tr (412  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 444.61 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 444.61 Tm 0 Tr (| BIGM OPENBR1 NUMVALUE COMM NUMVALUE COMM NUMVALUE CLOSEBR1 SEMI {cout<<"Bigmod value :) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 455.95 Tm 0 Tr ("<<bigmod\($3,$5,$7\)<<endl;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.29 Tm 0 Tr (413  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 467.29 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 467.29 Tm 0 Tr (| MOD OPENBR1 NUMVALUE COMM NUMVALUE CLOSEBR1 SEMI { cout<<"Modulus Result : "<<$3 % $5<<endl;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 478.62 Tm 0 Tr (414  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 478.62 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 478.62 Tm 0 Tr (| SIN OPENBR1 FLOATVAL CLOSEBR1 SEMI { double x=pi/180.0; cout<<"Sin"<<$3<<" is : "<<sin\($3 *) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 489.96 Tm 0 Tr (x\)<<endl; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.30 Tm 0 Tr (415  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 501.30 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 501.30 Tm 0 Tr (| COS OPENBR1 FLOATVAL CLOSEBR1 SEMI { double x=pi/180.0; cout<<"Cos"<<$3<<" is : "<<cos\($3\)<<endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 512.64 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 523.98 Tm 0 Tr (416  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 523.98 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 523.98 Tm 0 Tr (| TAN OPENBR1 FLOATVAL CLOSEBR1 SEMI { double x=pi/180.0; cout<<"Tan"<<$3<<" is : "<<tan\($3 *) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.32 Tm 0 Tr (x\)<<endl; }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 546.66 Tm 0 Tr (417  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 546.66 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 546.66 Tm 0 Tr (| ASIN OPENBR1 FLOATVAL CLOSEBR1 SEMI { cout<<"Sin invers "<<$3<<" is : "<<asin\($3\)/pi*180.0<<endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 557.99 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.33 Tm 0 Tr (418  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 569.33 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 569.33 Tm 0 Tr (| ACOS OPENBR1 FLOATVAL CLOSEBR1 SEMI { cout<<"Cos invers "<<$3<<" is : "<<acos\($3\)/pi*180.0<<endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 580.67 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.01 Tm 0 Tr (419  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 592.01 Tm 0 Tr (        ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 592.01 Tm 0 Tr (| ATAN OPENBR1 FLOATVAL CLOSEBR1 SEMI { cout<<"Tan invers "<<$3<<" is : "<<atan\($3\)/pi*180.0<<endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.35 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 614.69 Tm 0 Tr (420  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 614.69 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.03 Tm 0 Tr (421  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 626.03 Tm 0 Tr (NUMV : DIGIT    {$$ = $1;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.36 Tm 0 Tr (422  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 637.36 Tm 0 Tr (       ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 85.95 637.36 Tm 0 Tr (| FLOATVAL {$$ = $1;}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 648.70 Tm 0 Tr (423  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 648.70 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.04 Tm 0 Tr (424  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 660.04 Tm 0 Tr (%%) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.38 Tm 0 Tr (425  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 682.72 Tm 0 Tr (426  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 682.72 Tm 0 Tr (int main\(\) {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.06 Tm 0 Tr (427  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 694.06 Tm 0 Tr (  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 694.06 Tm 0 Tr (yyin = fopen\("cmpin.txt","r"\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.40 Tm 0 Tr (428  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 705.40 Tm 0 Tr (  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 705.40 Tm 0 Tr (yyout = freopen\("cmpout.txt","w",stdout\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 716.73 Tm 0 Tr (429  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 716.73 Tm 0 Tr (  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 716.73 Tm 0 Tr (yyparse\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.07 Tm 0 Tr (430  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 728.07 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 739.41 Tm 0 Tr (431  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 739.41 Tm 0 Tr (void yyerror\(const char *s\) {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 750.75 Tm 0 Tr (432  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 750.75 Tm 0 Tr (  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 750.75 Tm 0 Tr (cout << s ;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.09 Tm 0 Tr (433  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 762.09 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 773.43 Tm 0 Tr (434  ) Tj  ET Q
+Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R ]
+/Count 8
+/MediaBox [0 0 595.276 841.890]
+>>
+endobj
+19 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 19 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+20 0 obj
+<<
+/Names []
+>>
+endobj
+21 0 obj
+<<
+/Producer (þÿ w x P d f D o c u m e n t   0 . 9 . 4)
+/CreationDate (D:20191212134119)
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000112907 00000 n 
+0000113137 00000 n 
+0000000009 00000 n 
+0000000098 00000 n 
+0000012360 00000 n 
+0000012449 00000 n 
+0000023831 00000 n 
+0000023920 00000 n 
+0000038889 00000 n 
+0000038979 00000 n 
+0000053794 00000 n 
+0000053885 00000 n 
+0000068351 00000 n 
+0000068442 00000 n 
+0000084171 00000 n 
+0000084262 00000 n 
+0000098432 00000 n 
+0000098523 00000 n 
+0000113042 00000 n 
+0000113242 00000 n 
+0000113274 00000 n 
+0000113382 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+>>
+startxref
+113486
+%%EOF

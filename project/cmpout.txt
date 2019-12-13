@@ -1,0 +1,77 @@
+//Header file stdlib.h included
+//Header file stdio.h included
+//Header file math.h included
+//Function fc declared.
+//int Variable ab1 is initialized with 0
+Value of ab1 read as 50
+//int Variable ab2 is initialized with 10
+//int Variable ab3 is initialized with 55
+//int Variable ab4 is initialized with 55
+//double Variable d1 is initialized with 0
+//double Variable d2 is initialized with 3.1416
+//double Variable d3 is initialized with 7.25
+//double Variable d4 is initialized with 7.25
+//char Variable chr1 is initialized with a
+//char Variable chr2 is initialized with a
+//bool Variable bl1 is initialized with 1
+//bool Variable bl2 is initialized with false
+//bool Variable bl3 is initialized with 1
+//Multiple line comment
+//empty statement
+//int Array arr of size 10 is declared.
+//double Array darr of size 15 is declared.
+//bool Array barr of size 20 is declared.
+//char Array carr of size 25 is declared.
+//Single line comment
+Value of arr[1] read as 12
+12
+
+ Hello Moury!  
+
+Result of expression = 28.0266
+Result of expression = 100
+GCD : 5
+LCM : 60
+Square root of value : 5
+Qube of value :125
+Square of value :81
+Sin30 is : 0.5
+Sin invers 1 is : 90
+Cos180 is : -0.59846
+Cos invers 0 is : 90
+Tan45 is : 1
+Tan invers 70 is : 89.1815
+10 is not a prime.
+29 is prime.
+4 th prime number is : 7
+10 th prime number is : 29
+3 th Fibonacci number is : 2
+4 th Fibonacci number is : 3
+5 th Fibonacci number is : 5
+10 th Fibonacci number is : 55
+2 to the power 5 is : 32
+Bigmod value : 2
+ Built in Function call ended! 
+
+//int Variable xyz is initialized with 0
+//For loop detected
+//Value of expression : 23
+//Value of expression : 23
+//Value of expression : 23
+//Value of expression : 23
+//Value of expression : 23
+
+//For loop detected
+//Value of expression : 40
+//Value of expression : 40
+//Value of expression : 40
+//Value of expression : 40
+//Value of expression : 40
+//Value of expression : 40
+
+40
+
+//Value of if-else block : -30
+//int Variable ab is initialized with 0
+//while loop found.
+//Main function executed successfully

@@ -1,0 +1,103 @@
+Single line comment
+
+
+Header file included
+
+Header file included
+
+Error : header file name can't be keyword
+
+Error : Header file is not included
+
+
+Function Declared
+:
+	Single line comment
+
+function ends
+
+
+Multi-line comment
+
+moury
+multi-line comment ended
+
+
+Function Declared
+:
+	if clause found
+:
+		Value returned
+
+	else clause found
+:
+		Value returned
+
+	End of if clause
+
+function ends
+
+
+Main function starts
+:
+	variable declared
+
+	Value assigned
+
+	Value assigned
+
+	function called
+
+	if clause found
+:
+		function called
+
+	elif clause found
+:
+		function called
+
+	else clause found
+:
+		function called
+
+	End of if clause
+
+
+	Error : No if clause found nothing;
+
+	array declared
+
+	variable declared
+
+	Value assigned
+
+	while loop starts
+:
+		function called
+
+		Value assigned
+
+	while loop ends
+
+	No while loop declared
+
+	Loop found
+:
+		Value assigned
+	
+	Loop ends
+
+	
+	Value returned
+
+Main function ends
+
+
+Error: a program can have only one main function
+
+Count :
+	Header : 2
+	Function : 2
+	Keyword : 26
+	Variable : 3
+	Array : 2
